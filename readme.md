@@ -8,27 +8,27 @@ Create a fully functional Income Expense Calculator using HTML, CSS, and JavaScr
 
 ## Task Requirements:
 
-Create a clean and intuitive layout using HTML and CSS.
-Include input fields for entering income and expense details (e.g., description, amount).
-Include 3 filters [ “all”, “income”, “expense” ] to get only the needed data. (use radio buttons)
-Display a  list of all entries with options to edit or delete each one.
-Show the total income, total expenses, and net balance at the top.
-Create a reset button to clear the input fields
-Create: Allow users to add new income and expense entries.
-Read: Display the list of entries dynamically.
-Update: Enable users to edit existing entries.
-Delete: Provide functionality to remove entries from the list.
-Add local storage functionality to persist data across sessions.
-Clean, well-documented code for HTML, CSS, and JavaScript.
-A responsive design that works well on both desktop and mobile devices.
-A brief README file explaining the project.
+- Create a clean and intuitive layout using HTML and CSS.
+- Include input fields for entering income and expense details (e.g., description, amount).
+- Include 3 filters [ “all”, “income”, “expense” ] to get only the needed data. (use radio buttons)
+- Display a  list of all entries with options to edit or delete each one.
+- Show the total income, total expenses, and net balance at the top.
+- Create a reset button to clear the input fields
+- Create: Allow users to add new income and expense entries.
+- Read: Display the list of entries dynamically.
+- Update: Enable users to edit existing entries.
+- Delete: Provide functionality to remove entries from the list.
+- Add local storage functionality to persist data across sessions.
+- Clean, well-documented code for HTML, CSS, and JavaScript.
+- A responsive design that works well on both desktop and mobile devices.
+- A brief README file explaining the project.
 
 
 ## Techstacks needs to be used : 
 
-HTML
-Css or TailwindCSS
-Js
+1. HTML
+2. Css or TailwindCSS
+3. Js
 
 ## How do I submit my work?
 Deploy your web application in Netlify (https://www.netlify.com).
