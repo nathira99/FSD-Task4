@@ -7,9 +7,38 @@
 
     <!-- stylesheet -->
     <link rel="stylesheet" href="src/styles/index.css">
-</head>
-<body>
-    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+<body class="bg-gray-100 m-4">
+    <div class="max-w-3xl mx-auto bg-white P-6 rounded shadow-md">
+        <h1 class="text-2xl font-bold mb-4 pt-6 text-center max-sm:text-md">Income Expense Calculator</h1>
+
+        <div class="flex flex-col md:flex-row gap-4 mx-6">
+            <input type="text" placeholder="Description" class="mb-4 border border-gray-200 p-2 flex-1 rounded">
+            <input type="text" placeholder="Amount" class="mb-4 border border-gray-200 p-2 flex-1 rounded">
+            <select id="" class="mb-4 border p-2 rounded border-gray-200">
+                <option value="income">Income</option>
+                <option value="expense">Expense</option>
+            </select>
+            <button class="bg-blue-500 text-white px-4 py-2 rounded mb-4">Add</button>
+            <button class="bg-gray-300 text-black px-4 py-2 rounded mb-4">Reset</button>
+        </div>
+
+        <div class="flex max-md:flex-col justify-between mb-4 mx-4">
+            <div>Total Income: <span class="font-semibold">&#8377 0</span></div>
+            <div>Total Expenses: <span class="font-semibold">&#8377 0</span></div>
+            <div>Balance: <span class="font-bold">&#8377 0</span></div>
+        </div>
+
+        <div class="pb-10 mx-4">
+            <label><input type="radio" name="filter" value="all" checked>All</label>
+            <label class="ml-4"><input type="radio" name="filter" value="income">Income</label>
+            <label class="ml-4"><input type="radio" name="filter" value="expense">Expense</label>
+        </div>
+
+        <ul></ul>
+    </div>
 
     <!-- JavaScript -->
      <script src="src/script/index.js"></script>
