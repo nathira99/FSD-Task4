@@ -1,47 +1,46 @@
-# Income Expense Calculator Task
+# Income Expense Calculator
+
+## Project Overview
+
+This is a **Income Expense Calculator** built using **HTML**, **CSS or TailwindCSS**, and **JavaScript**.  
+The goal of this project is to help users keep track of their finances by recording income and expense entries. It provides a clear view of their financial health with a running total of income, expenses, and balance.
+
+This app allows users to:
+- Add income or expense records
+- View a dynamic list of all entries
+- Edit or delete any entry
+- Filter records by type (income, expense, or all)
+- Store their data in the browser using **LocalStorage** so it remains available even after a page refresh
+
+---
+
+## Features
+
+-  **Add, Edit, and Delete Entries**  
+  Users can create new records with a description and amount, modify them if needed, or remove them.
+
+-  **Live Summary Totals**  
+  The calculator updates the total income, expenses, and balance in real-time as you add or modify data.
+
+-  **Filter Options**  
+  Use radio buttons to view only income, only expenses, or all entries for better clarity.
+
+-  **LocalStorage Integration**  
+  Your data is saved locally in the browser, so it's still there when you come back.
+
+-  **Reset Input Fields**  
+  A reset button clears all input fields to quickly enter a new transaction.
+
+-  **Responsive Design**  
+  The layout adapts to different screen sizes for a smooth experience on mobile and desktop devices.
+
+-  **Clean Code**  
+  Code is structured, well-commented, and easy to understand for beginners learning front-end development.
 
 
-## Task Description:
+##  Tech Stack
 
-Create a fully functional Income Expense Calculator using HTML, CSS, and JavaScript. This project should allow the users to add, edit, and delete income and expense entries, providing an overview of their financial status. The project will implement CRUD (Create, Read, Update, Delete) operations to manage the data.
-
-
-## Task Requirements:
-
-- Create a clean and intuitive layout using HTML and CSS.
-- Include input fields for entering income and expense details (e.g., description, amount).
-- Include 3 filters [ “all”, “income”, “expense” ] to get only the needed data. (use radio buttons)
-- Display a  list of all entries with options to edit or delete each one.
-- Show the total income, total expenses, and net balance at the top.
-- Create a reset button to clear the input fields
-- Create: Allow users to add new income and expense entries.
-- Read: Display the list of entries dynamically.
-- Update: Enable users to edit existing entries.
-- Delete: Provide functionality to remove entries from the list.
-- Add local storage functionality to persist data across sessions.
-- Clean, well-documented code for HTML, CSS, and JavaScript.
-- A responsive design that works well on both desktop and mobile devices.
-- A brief README file explaining the project.
-
-
-## Techstacks needs to be used : 
-
-1. HTML
-2. Css or TailwindCSS
-3. Js
-
-## How do I submit my work?
-Deploy your web application in Netlify (https://www.netlify.com).
-Push all your work files to GitHub.
-Submit your URLs in the portal.
-
-## Terms and Conditions?
-You agree to not share this confidential document with anyone. 
-You agree to open-source your code (it may even look good on your profile!). Do not mention our company’s name anywhere in the code.
-We will never use your source code under any circumstances for any commercial purposes; this is just a basic assessment task. 
-NOTE: Any violation of Terms and conditions is strictly prohibited. You are bound to adhere to it.
-
-
-
-
+- **HTML** – Markup for creating the structure of the app  
+- **CSS** or **TailwindCSS** – Styling the layout and making it responsive  
+- **JavaScript** – Adds interactivity, handles logic, and stores data
 
